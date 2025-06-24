@@ -119,7 +119,7 @@ export default function DashboardPage() {
   };
 
   return (
-    <div className="bg-back min-h-screen">
+    <div className="bg-back min-h-screen overflow-scroll">
       <main className="px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <StatCard title="Active Courses" value="120" color="border-l-4 border-blue-500" />

@@ -129,7 +129,7 @@ const Chatpage = () => {
   };
 
   return (
-    <div className="flex min-h-[92vh] overflow-scroll bg-back text-white">
+    <div className="flex min-h-screen overflow-scroll bg-back text-white">
       {/* Sidebar */}
       <aside className="w-64 bg-black border-r h-[92vh] border-gray-800 flex flex-col">
         <div className="p-4 font-bold text-xl border-b border-gray-700">
