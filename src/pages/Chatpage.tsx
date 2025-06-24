@@ -129,7 +129,7 @@ const Chatpage = () => {
   };
 
   return (
-<div className="flex flex-col md:flex-row h-[calc(100vh-64px)] overflow-hidden bg-black text-white">
+<div className="flex flex-col md:flex-row h-[calc(100vh-70px)] overflow-hidden bg-black text-white">
       {/* Sidebar */}
       <aside className="hidden md:flex md:w-64 flex-col bg-gray-900 border-r border-gray-800">
         <div className="p-4 font-bold text-xl border-b border-gray-700">
