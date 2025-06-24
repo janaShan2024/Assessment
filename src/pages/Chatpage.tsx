@@ -156,11 +156,11 @@ const Chatpage = () => {
       </aside>
 
       {/* Chat Window */}
-      <main className="flex-1 flex flex-col">
+      <main className="flex-1 flex flex-col  w-full">
         
 
         <div className="flex-1 flex ">
-          <div className="w-full px-32 flex flex-col border border-gray-700 bg-gray-900 shadow-lg overflow-hidden">
+          <div className="w-full bg-gray-900 border-l border-gray-800 md:px-32 px-4 flex flex-col border  shadow-lg overflow-hidden">
             {/* Scrollable Message Area */}
             <div className="flex-1 overflow-y-auto p-4">
               {messages.map(message => (
