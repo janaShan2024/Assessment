@@ -129,9 +129,9 @@ const Chatpage = () => {
   };
 
   return (
-    <div className="flex min-h-screen overflow-scroll bg-back text-white">
+<div className="flex flex-col md:flex-row h-[calc(100vh-64px)] overflow-hidden bg-black text-white">
       {/* Sidebar */}
-      <aside className="w-64 bg-black border-r h-[92vh] border-gray-800 flex flex-col">
+      <aside className="hidden md:flex md:w-64 flex-col bg-gray-900 border-r border-gray-800">
         <div className="p-4 font-bold text-xl border-b border-gray-700">
           🧠 My Chats
         </div>
@@ -156,7 +156,7 @@ const Chatpage = () => {
       </aside>
 
       {/* Chat Window */}
-      <main className="flex-1 flex flex-col  h-[92vh] ">
+      <main className="flex-1 flex flex-col">
         
 
         <div className="flex-1 flex ">
